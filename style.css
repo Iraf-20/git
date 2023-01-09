@@ -1,0 +1,71 @@
+#slider {
+padding-top: 10px;
+}
+
+.title-md{
+  font-weight: 700;
+  color: #d04a10;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+#mainMenu .nav-link {
+  color: #d04a10;
+}
+#mainMenu .nav-link:hover {
+  background: #f7ab8d;
+  border-radius: 5px;
+  color: #262626;
+}
+#mainMenu .nav-link.active {
+  background: #d04a10;
+  border-radius: 5px;
+  color: #f9f3f3;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #262626;
+}
+.btn-info {
+  background-color: #d04a10;
+  border-color: #f9ad60;
+  color: aliceblue;
+}
+#work {
+  padding-top: 80px;
+}
+
+#contact {
+  background: url(img/map.jpg);
+}
+
+#footer {
+  font-size: 14px;
+}
+
+#footer ul a {
+  color: #262626;
+  text-decoration: none;
+}
+
+#footer ul a:hover {
+  color: #f9ad60;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #slider {
+    padding-top: 60px;
+  }
+  #about {
+    padding: 25px;
+  }
+  #about .col-md-6.align-self-center{
+    padding-bottom: 25px;
+  }
+}
